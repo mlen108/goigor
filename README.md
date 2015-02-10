@@ -1,11 +1,14 @@
 # goigor
 
-`goigor` generates `.gitignore` (or `.hgignore`) files from the command line. a bit like [joe](https://github.com/karan/joe) but written in [Go](http://golang.org/).
+`goigor` generates `.gitignore` (or `.hgignore` if you fancy it) files from the command line.
+
+a bit like [joe](https://github.com/karan/joe) but written in [Go](http://golang.org/) (because `pip` has gone crazy once again..).
 
 ## features
 * easy to install
 * even easier to use
 * works wherever [Go works](http://golang.org/doc/install#requirements)
+* no stupid third-party dependencies
 * generates files for Git and Mercurial
 
 ## installation
