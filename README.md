@@ -13,7 +13,7 @@ a bit like [joe](https://github.com/karan/joe) but written in [Go](http://golang
 
 ## installation
 
-```shell
+```bash
 go get github.com/mlen108/goigor
 cd goigor
 go build goigor.go
@@ -21,29 +21,29 @@ go build goigor.go
 
 ## usage
 
-```shell
+```bash
 ./goigor go   # output the Golang file to stdout
 ```
 
 #### multiple languages
 
-```shell
+```bash
 ./goigor python java fortran
 ```
 
 #### save to file
 
-```shell
+```bash
 ./goigor go > .gitignore
 ```
 or
-```shell
+```bash
 ./goigor go > .hgignore
 ```
 
 #### append to file
 
-```shell
+```bash
 ./goigor go >> .gitignore
 ```
 
