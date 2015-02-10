@@ -22,7 +22,7 @@ go build goigor.go
 ## usage
 
 ```bash
-./goigor go   # output the Golang file to stdout
+./goigor go   # outputs the Golang file to stdout
 ```
 
 #### multiple languages
